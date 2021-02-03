@@ -24,7 +24,7 @@ nav {
   display: flex;
   flex-direction: column;
   background: #573e7d;
-  padding: 1.1em 1em 1em 1em;
+  padding: 1.5em 1em 1.5em 1em;
   top: 30%;
   border-radius: 0 8px 8px 0;
 }
@@ -35,8 +35,12 @@ nav > a {
   text-decoration: none;
 }
 
+nav > a:last-child {
+  margin-bottom: 0;
+}
+
 nav > a > i {
-  margin-right: .4em;
+  margin-right: .3em;
 }
 
 nav > a:hover {
