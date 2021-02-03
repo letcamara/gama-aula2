@@ -24,7 +24,7 @@ nav {
   display: flex;
   flex-direction: column;
   background: #573e7d;
-  padding: 1em 1em 1em 1em;
+  padding: 1.1em 1em 1em 1em;
   top: 30%;
   border-radius: 0 8px 8px 0;
 }
@@ -33,6 +33,10 @@ nav > a {
   color: #fff;
   margin-bottom: 10px;
   text-decoration: none;
+}
+
+nav > a > i {
+  margin-right: .4em;
 }
 
 nav > a:hover {
