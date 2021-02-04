@@ -72,7 +72,7 @@ footer {
 }
 
 .section--margin {
-  margin: 3em 3em 3em 3em;
+  padding: 3em 3em 3em 3em;
 }
 
 .section--content > div {
